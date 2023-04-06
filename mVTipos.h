@@ -1,7 +1,7 @@
 #ifndef MVTIPOS_H_INCLUDED
 #define MVTIPOS_H_INCLUDED
 
-typedef char instruccion[];
+typedef char instruccion;
 
 typedef struct{
     instruccion memoria[];

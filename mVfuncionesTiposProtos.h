@@ -3,7 +3,7 @@
 
 typedef void t_funcion(int *a,int *b);
 
-t_funcion vecFuncionesMV[];
+
 
 void mov(int *celdaRecividora,int *valor);
 void add(int *operando1,int operando2);
@@ -25,5 +25,6 @@ void jnp(int direccion,int *ip);
 void jnn(int direccion,int *ip);
 void ldl()
 
-
+t_funcion vecFuncionesMV[]={mov,add,sub,intercambia,cmp};
 #endif // MVFUNCIONESTIPOSPROTOS_H_INCLUDED
+

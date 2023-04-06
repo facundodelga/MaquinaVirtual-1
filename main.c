@@ -4,17 +4,30 @@
 int main()
 {
     FILE archBinario;
-    unsigned short int detienePrograma;
-    unsigned int numInstrucciones=0;
+    unsigned short int flagStop;
+    char tipoOperando1,tipoOperando2,operacion;
+    unsigned int ipActual,i;
 
-    archBinario=fopen("traduccion.bin","rb");
-    fgets()
+    archBinario=fopen("traduccion.vmx","rb");
+    fgets(mv.memoria[numInstrucciones],6*sizeof(char),archBinario);
+    fgets(mv.TDD[0],2*sizeof(char),archBinario);
+    //se lee el archivo binario para cargarlo en la memoria
     while(!feof(archBinario)){
-        fgets(,sizeof(char),)
+        numInstrucciones++;
+        fgets(mv.memoria[numInstrucciones],sizeof(char),archBinario);
     }
     fclose(archBinario);
-    while(!numInstrucciones){
+    mv.registros[5]=0;
+    mascarasAInstruccuion(mv.memoria[i],&operando1,&operando2,&operancion,flagStop);
+    while(mv.TDD[1]!=mv.registros[5] && !flagStop){
+        ipActual=mv.registro[5];
+        sumaIP(&mv.registros[5],tipoOperando1,tipoOperando2); para que? igual acordate que los operando ya los tenes
+        for(ipActual;ipActual<mv.registros[5];ipactual++){
 
+        }
+        funcionesMV[operancion](operando1,operando2);
+        mascarasAInstruccuion(mv.memoria[mv.registros[5]],&tipoOperando1,&tipoOperando2,&operancion,flagStop);
     }
+    //disassebler
     return 0;
 }
