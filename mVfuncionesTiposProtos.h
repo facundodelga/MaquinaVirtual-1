@@ -25,6 +25,5 @@ void jnp(int direccion,int *ip);
 void jnn(int direccion,int *ip);
 void ldl()
 
-t_funcion vecFuncionesMV[]={mov,add,sub,intercambia,cmp};
 #endif // MVFUNCIONESTIPOSPROTOS_H_INCLUDED
 
