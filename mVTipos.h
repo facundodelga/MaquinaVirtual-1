@@ -1,7 +1,6 @@
 
 
 typedef char instruccion;
-
 typedef struct{
     instruccion memoria[16384];
     int TDD[8];

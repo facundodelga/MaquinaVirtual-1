@@ -3,11 +3,18 @@
 	<stdio.h>
 	<stdlib.h>
 
-1680985451 source:c:\users\facundo\dropbox\maquinavirtual\maquinavirtualgit\registros.c
+1681136013 source:c:\users\facundo\dropbox\maquinavirtual\maquinavirtualgit\registros.c
 	"registros.h"
 
 1680985401 c:\users\facundo\dropbox\maquinavirtual\maquinavirtualgit\registros.h
 	"mVTipos.h"
 
-1680985440 c:\users\facundo\dropbox\maquinavirtual\maquinavirtualgit\mvtipos.h
+1681393534 c:\users\facundo\dropbox\maquinavirtual\maquinavirtualgit\mvtipos.h
+
+1681393534 source:c:\users\facundo\dropbox\maquinavirtual\maquinavirtualgit\funcionesadicionales.c
+	<stdlib.h>
+	"funcionesAdicionales.h"
+	"mVTipos.h"
+
+1680980526 c:\users\facundo\dropbox\maquinavirtual\maquinavirtualgit\funcionesadicionales.h
 

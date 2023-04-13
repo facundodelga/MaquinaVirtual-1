@@ -6,7 +6,8 @@
 int main(){
     FILE *archBinario;
     unsigned short int flagStop;
-    char tipoOperando1,tipoOperando2,operacion;
+    char tipoOperando1,tipoOperando2,operacion;+
+    TOperando operandos[2];
     unsigned int ipActual,i;
     char *header =(char *)malloc(sizeof(char) * 6);
     t_funcion *vecFuncionesMV[]={mov,add,sub,intercambia,mul,div,cmp,shl,shr,and,or,xor,
@@ -27,14 +28,15 @@ int main(){
 
     fclose(archBinario);
 
-    mv.registros[5]=0;
+    mv.registros[5]=0; //PC == 0
+
     mascarasAInstruccuion(mv.memoria[mv.registros[5]],&operando1,&operando2,&operancion,&flagStop);
 
     while(mv.TDD[1] != mv.registros[5] && !flagStop){
         ipActual=mv.registro[5];
         sumaIP(&mv.registros[5],tipoOperando1,tipoOperando2);
         vecFuncionesMV[(int)operancion](&mv,tipoOperando1,tipoOperando2,ipActual);
-        mascarasAInstruccuion(mv.memoria[mv.registros[5]],&tipoOperando1,&tipoOperando2,&operancion,flagStop);
+        mascarasAInstruccuion(mv.memoria[mv.registros[5]],&(operando[0].tipo),&(operando[1].tipo),&operancion,flagStop);
     }
 
     //disassebler

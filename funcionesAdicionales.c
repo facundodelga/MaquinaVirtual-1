@@ -1,5 +1,6 @@
 #include <stdlib.h>
 #include "funcionesAdicionales.h"
+#include "mVTipos.h"
 
 void complentoA2(char *operando){
     *operando = (*operando) + 0x00000001;
@@ -25,8 +26,18 @@ void mascarasAInstruccuion(char instruccion,char *operando1,char *operando2,char
             *operacion=instruccion & 0x3F;
         else{
             *operacion=instruccion & 0x0F;
-            *operando2 = *operando2 >> 4;
+            *operando2 = *operando2 >> 6;
         }
     }
 }
+
+
+
+
+
+
+
+
+
+
 

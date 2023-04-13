@@ -31,30 +31,9 @@
 		<Compiler>
 			<Add option="-Wall" />
 		</Compiler>
-		<Unit filename="MaquinaVirtualGit.cbp" />
-		<Unit filename="funcionesAdicionales.c">
-			<Option compilerVar="CC" />
-		</Unit>
-		<Unit filename="funcionesAdicionales.h" />
-		<Unit filename="mVTipos.h" />
-		<Unit filename="mVfuncionesTiposProtos.h" />
 		<Unit filename="main.c">
 			<Option compilerVar="CC" />
 		</Unit>
-		<Unit filename="mvFunciones.c">
-			<Option compilerVar="CC" />
-		</Unit>
-		<Unit filename="operandos.c">
-			<Option compilerVar="CC" />
-		</Unit>
-		<Unit filename="operandos.h" />
-		<Unit filename="pienso.c">
-			<Option compilerVar="CC" />
-		</Unit>
-		<Unit filename="registros.c">
-			<Option compilerVar="CC" />
-		</Unit>
-		<Unit filename="registros.h" />
 		<Extensions />
 	</Project>
 </CodeBlocks_project_file>
