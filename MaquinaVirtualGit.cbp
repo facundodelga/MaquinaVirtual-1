@@ -48,13 +48,6 @@
 			<Option compilerVar="CC" />
 		</Unit>
 		<Unit filename="operandos.h" />
-		<Unit filename="pienso.c">
-			<Option compilerVar="CC" />
-		</Unit>
-		<Unit filename="registros.c">
-			<Option compilerVar="CC" />
-		</Unit>
-		<Unit filename="registros.h" />
 		<Extensions />
 	</Project>
 </CodeBlocks_project_file>

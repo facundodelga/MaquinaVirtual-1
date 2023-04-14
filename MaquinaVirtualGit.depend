@@ -11,10 +11,16 @@
 
 1681393534 c:\users\facundo\dropbox\maquinavirtual\maquinavirtualgit\mvtipos.h
 
-1681393534 source:c:\users\facundo\dropbox\maquinavirtual\maquinavirtualgit\funcionesadicionales.c
+1681422074 source:c:\users\facundo\dropbox\maquinavirtual\maquinavirtualgit\funcionesadicionales.c
 	<stdlib.h>
 	"funcionesAdicionales.h"
 	"mVTipos.h"
 
-1680980526 c:\users\facundo\dropbox\maquinavirtual\maquinavirtualgit\funcionesadicionales.h
+1681421386 c:\users\facundo\dropbox\maquinavirtual\maquinavirtualgit\funcionesadicionales.h
+
+1681430334 source:c:\users\facundo\dropbox\maquinavirtual\maquinavirtualgit\operandos.c
+	"operandos.h"
+
+1681430322 c:\users\facundo\dropbox\maquinavirtual\maquinavirtualgit\operandos.h
+	"mVTipos.h"
 

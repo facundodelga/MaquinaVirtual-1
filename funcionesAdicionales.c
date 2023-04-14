@@ -14,10 +14,12 @@ void sumaIP(unsigned int *ip,char operando1,char operando2){
     *ip += 1 + !operando1 + !operando2;
 }
 
-void mascarasAInstruccuion(char instruccion,char *operando1,char *operando2,char *operacion,int *flagStop){
+
+//recibo primer byte de la instruccion, asigno tipos de operandos y operacion
+void leePrimerByte(char instruccion,char *operando1,char *operando2,char *operacion){
 
     if((instruccion & 0xF0) == 0xF0)
-        *flagStop = 1;
+        *operacion = instruccion;
     else{
         *operando1 = (instruccion & 0xc0) >> 6;
         *operando2 = instruccion & 0x30;
@@ -30,6 +32,8 @@ void mascarasAInstruccuion(char instruccion,char *operando1,char *operando2,char
         }
     }
 }
+
+
 
 
 

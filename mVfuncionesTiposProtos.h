@@ -6,9 +6,8 @@ typedef void t_funcion(TMV *,operando *);
 
 
 
-void mov(TMV *mv,operando *op){
-    setOP(mv,op[0],getOp(mv,op[1]));
-}
+void mov(TMV *mv,operando *op);
+
 void add(int *operando1,int operando2);
 void sub(int *operando1,int *operando2);
 void intercambia(int *operando1,int *operando2);
